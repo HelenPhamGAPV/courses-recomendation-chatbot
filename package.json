@@ -1,0 +1,40 @@
+{
+  "name": "course-recommendation-chatbot",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@aws-sdk/client-bedrock-agent-runtime": "^3.797.0",
+    "@aws-sdk/client-s3": "^3.797.0",
+    "@aws-sdk/credential-providers": "^3.797.0",
+    "@aws-sdk/s3-request-presigner": "^3.797.0",
+    "@cloudscape-design/chat-components": "^1.0.39",
+    "@cloudscape-design/code-view": "^3.0.52",
+    "@cloudscape-design/collection-hooks": "^1.0.72",
+    "@cloudscape-design/components": "^3.0.950",
+    "@cloudscape-design/design-tokens": "^3.0.55",
+    "@cloudscape-design/global-styles": "^1.0.42",
+    "install": "^0.13.0",
+    "npm": "^11.3.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.21.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^15.15.0",
+    "sass-embedded": "^1.86.3",
+    "vite": "^6.2.0"
+  }
+}
